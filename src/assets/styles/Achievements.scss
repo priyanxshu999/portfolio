@@ -1,0 +1,33 @@
+.container {
+    padding: 50px 0;
+}
+
+.skills-container {
+    text-align: center;
+}
+
+.skills-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.skill {
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 350px;
+}
+
+.flex-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.chip-title {
+    font-weight: bold;
+    width: 100%;
+}
